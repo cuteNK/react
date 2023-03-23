@@ -1,0 +1,12 @@
+section {
+  border: 5px solid black;
+  text-align: center;
+}
+section article {
+  background-color: gold;
+  width: 200px;
+  height: 100px;
+  display: inline-block;
+  border: 1px solid red; /* 을 주면 크기가 안 맞아 올라가지 못함 */
+  box-sizing: border-box; /* 사용하면 가능*/
+}
