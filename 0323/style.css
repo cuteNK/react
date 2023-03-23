@@ -1,0 +1,16 @@
+body {
+  color: #000;
+}
+a {
+  color: aqua;
+  text-decoration: none;
+  border: 1px solid red;
+
+  /* 너비는 텍스트의 너비로 인라인 요소는 크기값을 가질 수 없다. 따라서 아래같이 주어도 변화 없다*/
+  width: 300px;
+  height: 200px;
+
+  /* 인라인 요소는 마진을 주면 상하좌우가 적용되지 않고 상하만 적용된다 */
+  /* 가로배치, 크기조절 불가, 좌우 마진 X 상하 마진O */
+  margin: 50px;
+}
