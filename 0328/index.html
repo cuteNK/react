@@ -10,14 +10,11 @@
   <body>
     <div class="alert-box" id="alert">
       알림창입니다.
-      <button onclick="btnNone('none')">닫기</button>
+      <button onclick="btnDisp('none')">닫기</button>
     </div>
-    <button onclick="btnBlock('block')">알림창보여주세요</button>
+    <button onclick="btnDisp('block')">알림창보여주세요</button>
     <script>
-      function btnBlock(select) {
-        document.getElementById("alert").style.display = select;
-      }
-      function btnNone(select) {
+      function btnDisp(select) {
         document.getElementById("alert").style.display = select;
       }
     </script>
