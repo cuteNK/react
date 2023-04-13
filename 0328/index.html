@@ -12,10 +12,16 @@
       알림창입니다.
       <button onclick="btnDisp('none')">닫기</button>
     </div>
-    <button onclick="btnDisp('block')">알림창보여주세요</button>
+    <button onclick="btnText()">아이디버튼</button>
+    <button onclick="btnText()">비번버튼</button>
     <script>
       function btnDisp(select) {
         document.getElementById("alert").style.display = select;
+      }
+      function btnText(title) {
+        document.getElementById("alert").innerText = title;
+        // btnDisp('block')
+        document.getElementById("alert").style.display = "block";
       }
     </script>
   </body>
